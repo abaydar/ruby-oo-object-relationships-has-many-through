@@ -1,3 +1,4 @@
+require 'pry'
 class Waiter
     attr_accessor :name, :yrs_experience
 
@@ -28,5 +29,11 @@ class Waiter
 
         best_tipped_meal.customer
     end
+
+    def most_frequent_customer
+    
+    binding.pry
+    end
+    
 
 end 
