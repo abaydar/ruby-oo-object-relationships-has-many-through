@@ -1,3 +1,4 @@
+require 'pry'
 class Waiter
     attr_accessor :name, :yrs_experience
 
@@ -28,5 +29,12 @@ class Waiter
 
         best_tipped_meal.customer
     end
+
+    # def most_frequent_customer
+    #     frequent_customer = meals.select{|meal| meal.customer}
+    #     most_frequent = frequent_customer.max{|customer| most_frequent.count(customer)}
+    #     most_frequent
+    # end
+    
 
 end 
